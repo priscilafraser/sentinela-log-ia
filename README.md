@@ -227,8 +227,22 @@ O Streamlit mostra:
 
 - logs em tempo real
 
+## Execução rápida
+````bash
+# 1. (Opcional) Gerar log de treino
+python -m src.ingestaoLogs.gerar_logs_ataque
+
+# 2. Treinar o modelo
+python -m src.models.treinamento_modelo
+
+# 3. Abrir o dashboard
+streamlit run src/dashboards/app.py
+
+````
 
 ### 🧑‍💻 Autor
 
 Projeto desenvolvido para estudo e demonstração de estratégias de detecção de ameaças com Machine Learning e análise inteligente de logs, aplicando técnicas de Detecção de Anomalias e práticas de Segurança Cibernética (Blue Team).
+| [<img src="https://avatars.githubusercontent.com/u/55546267?v=4" width=115><br><sub>Priscila Miranda</sub>](https://github.com/priscilafraser) |
+| :---: |
 
