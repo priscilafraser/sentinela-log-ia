@@ -1,0 +1,26 @@
+# Ambiente
+.env
+
+# VSCode
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Modelos treinados (se forem grandes ou privados)
+modelos/
+
+# Dados brutos
+data/dados_brutos_log/
+data/interim/
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/
+
+# Checkpoints
+*.pkl
+*.joblib
